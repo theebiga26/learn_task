@@ -45,7 +45,7 @@ export const TestimonialSection = React.forwardRef<HTMLDivElement, TestimonialSe
       <section
         ref={ref}
         className={cn(
-          'relative w-full min-h-screen flex flex-col items-center justify-center overflow-x-hidden bg-background text-slate-900 py-20 px-4',
+          'testimonial-section relative w-full min-h-screen flex flex-col items-center justify-center overflow-x-hidden bg-background text-slate-900 py-20 px-4',
           className
         )}
         {...props}
